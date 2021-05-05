@@ -17,9 +17,11 @@
   },
   "homepage": "https://github.com/everlifeai/elife-secret#readme",
   "dependencies": {
+    "@elife/utils": "^4.0.0",
     "bip39": "^3.0.4",
     "ethers": "^5.1.4",
     "ssb-keys-mnemonic": "^1.0.1",
-    "stellar-hd-wallet": "^0.0.10"
+    "stellar-hd-wallet": "^0.0.10",
+    "stellar-sdk": "^8.1.1"
   }
 }
