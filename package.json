@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/everlifeai/elife-secret/issues"
   },
-  "homepage": "https://github.com/everlifeai/elife-secret#readme"
+  "homepage": "https://github.com/everlifeai/elife-secret#readme",
+  "dependencies": {
+    "bip39": "^3.0.4",
+    "ethers": "^5.1.4",
+    "ssb-keys-mnemonic": "^1.0.1",
+    "stellar-hd-wallet": "^0.0.10"
+  }
 }
