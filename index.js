@@ -8,10 +8,16 @@ const ethers = require("ethers")
 
 const u = require('@elife/utils')
 
+/*    way/
+ * create a new secret file with a generated mnemonic
+ */
 function create(cb) {
   fromMnemonic(stellarWallet.generateMnemonic(), cb)
 }
 
+/*    way/
+ * create a new secret file from the given mnemonic
+ */
 function fromMnemonic(words, cb) {
   if(!bip39.validateMnemonic(words)) return cb('Invalid mnemonic')
 
